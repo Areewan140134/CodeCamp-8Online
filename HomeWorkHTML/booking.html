@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php/">
+        <pre for="Flying"><b>Flying from          To</b></pre>
+        <select id="flying" name="flying">  
+            <option value="Karachi Pakist">Karaci Pakist</option>
+        </select>
+        <select id ="To" name="To">
+            <option value="Isaramabad,Pal">Isaramabad,Pal</option>
+        </select><br>
+        <pre for ="Departing"><b>Departing                      Returning</b></pre>   
+        <input type="date"id="Departing"name="Departing">
+        <input type="date"id="Returing"name="Returing"><br><br>
+        <span style="word-spacing: 0.55cm;">
+                <label id="Adult" name="Adult"><span><b>Adult</b></label>
+                <label id="Child" name="Child"><span><b>Child</b></span></label>         
+        </span>
+        <span style="word-spacing: 0.35cm;">
+                <label id="Infant" name="Infant"><b>Infant</b></label>
+                <label style="color: red;"><b>Currency</b></label></style>
+        </span><br>
+        <span>
+                <input type="number"id="Adult"name="Adult"value="1" style="width: 1.35cm;">
+                <input type="number"id="Child"name="Child"value="0" style="width: 1.35cm;"> 
+                <input type="number"id="Infant"name="Infant"value="0"style="width: 1.35cm;">
+                <select id="Currency" name="Currency">
+                     <option value="PKR">PKR</option>
+                </select><br><br>     
+                <input type="button" class="button" value="SEARCH" style="background-color:tomato;color: white;">  
+        </span>
+    </form>
+</body>
+</html>
